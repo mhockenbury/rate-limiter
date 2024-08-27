@@ -1,5 +1,4 @@
-import { Router, Application } from "express";
-import { Request, Response } from "express";
+import { Application, Router, Request, Response } from "express";
 
 export function rootHandler(req: Request, res: Response): Response {
   return res.json({ status: "OK" });
