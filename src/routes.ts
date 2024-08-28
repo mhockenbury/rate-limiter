@@ -21,4 +21,3 @@ export default class ApiRoutes {
         app.use("/api", new Routes().router);
     }
 }
-
